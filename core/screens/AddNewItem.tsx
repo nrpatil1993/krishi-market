@@ -5,11 +5,10 @@ import { observer } from 'mobx-react';
 import { Divider, RadioButton } from 'react-native-paper';
 import { isEmpty } from 'lodash';
 import { UserInfo } from '../store/userInfo';
-import {v4} from 'uuid';
 
 const AddNewItemScreen = () => {
     const [cropItem, setCropItem] = useState<ICrop>({
-        _id: v4(), // Should be added by backend
+        _id: (Math.random() + UserInfo.userInfo.myFoodItems.length).toString(), // Should be added by backend
         crop: "",
         cropType: "",
         sellStatus: true,
