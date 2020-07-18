@@ -1,0 +1,2 @@
+"# krishi-market" 
+This is an App which allows to connect consumers directly with farmers. Farmers can add food items, for example Milk, Rice, Wheat, Desi Ghee etc on this App with their contact number. The consumer can directly contact the farmer to buy the item. The App allows the consumer to search any Food item based on the distance (in Km) from the Farmers's selling location. With this the consumer can choose the nearest farmer to buy the food item.
