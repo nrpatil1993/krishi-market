@@ -41,7 +41,7 @@
     "@types/react-native": "~0.62.13",
     "@types/uuid": "^8.0.0",
     "babel-preset-react-native": "^4.0.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "typescript": "~3.9.5"
   },
   "private": true
